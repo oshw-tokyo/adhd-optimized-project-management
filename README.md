@@ -1,8 +1,8 @@
 # 統合プロジェクト管理システム
 
 **作成日:** 2025-04-04  
-**最終更新:** 2025-04-04  
-**バージョン:** 1.0.0
+**最終更新:** 2025-04-05  
+**バージョン:** 1.1.0
 
 ## 概要
 
@@ -15,7 +15,7 @@
 - **personal-optimization/** - ADHD特性に最適化した作業方法
 - **templates/** - 日次・週次チェックインなどの各種テンプレート
 - **git-guide/** - Git/GitHubの活用ガイド
-- **document-guide/** - ドキュメント管理の方針と規則
+- **document-guide/** - ドキュメント管理の方針と規則（→ [詳細はドキュメント管理ガイド](document-guide/document-management-guide.md) を参照）
 
 ## 基本的な使い方
 
@@ -24,6 +24,7 @@
 3. 新しいプロジェクトの開始時には `project-management/management-principles.md` を参照
 4. 生成AIとの対話には `ai-collaboration/prompt-templates.md` を活用
 5. 月に一度 `templates/integrated-report-template.md` で全体進捗を統合
+6. ドキュメント管理は `document-guide/document-management-guide.md` の方針に従う
 
 ## 重要な原則
 
@@ -34,12 +35,18 @@
 5. **期限と成果の明確化** - 短期的な期限設定と「成果(outcome)」の明確化
 6. **プロジェクト完了優先** - 複数の未完了プロジェクトより、少数の完了プロジェクトを優先
 
-## プロジェクト分類
+## プロジェクト分類と関連ガイドライン
+
+各プロジェクトは以下のカテゴリに分類され、適切なガイドラインに従って管理されます：
 
 - **Main/** - 主力プロジェクト（現在: SatelliteSolarScan, リファービッシュ事業）
 - **Sub/** - 副次的なプロジェクト（現在: Sornetteプロジェクト）
 - **Support/** - 運営支援プロジェクト
 - **_Archive/** - 完了または休止中のプロジェクト（現在: 草刈りプロジェクト）
+
+統合ガイドラインとプロジェクト固有ガイドラインの関係については、以下を参照してください：
+- [AI協働ガイドライン関係性ガイド](ai-collaboration/ai-collaboration-relationship-guide.md)
+- [ドキュメント管理ガイド](document-guide/document-management-guide.md)
 
 ## 生成AIのためのガイド
 
@@ -62,6 +69,7 @@
 3. **`personal-optimization/adhd-optimization-guide.md`**: ADHD特性への最適化戦略
 4. **`project-management/management-principles.md`**: 基本的な管理原則
 5. **`ai-collaboration/ai-progress-management.md`**: 進捗管理におけるAIの役割
+6. **`document-guide/document-management-guide.md`**: ドキュメント管理の階層構造と原則
 
 ### 優先すべき姿勢と行動
 
@@ -117,6 +125,18 @@
 
 このシステムは継続的に改善されます。新しいテンプレートやガイドラインが追加される可能性があるため、ユーザーから指示があった場合は新しい文書を積極的に参照してください。また、ユーザーとの対話から学び、サポート方法を継続的に最適化してください。
 
+## ガイドライン間の関係性
+
+このシステムは相互に連携した複数のガイドラインで構成されています。各ガイドライン間の関係については下記を参照してください：
+
+- **統合ガイドライン**: すべてのプロジェクトに適用される基本原則と方針
+- **プロジェクト固有ガイドライン**: 統合ガイドラインを継承し、プロジェクト特有のコンテキストに拡張したもの
+
+詳細な関係性と整合性確保のプロセスについては、以下のドキュメントを参照してください：
+- [AI協働ガイドライン関係性ガイド](ai-collaboration/ai-collaboration-relationship-guide.md)
+- [ドキュメント管理ガイド](document-guide/document-management-guide.md)（階層構造のセクション）
+
 ## 更新履歴
 
+- **2025-04-05**: 相互参照の強化、ガイドライン間の関係性セクションの追加
 - **2025-04-04**: 初版作成、基本構成の確立
